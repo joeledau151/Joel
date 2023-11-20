@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Rijar",
+    "slug": "Online-banking",
+    "version": "2.0.0",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD",
+      "useClassicUpdates": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/Logoicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rijar.Onlinebanking"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logoicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rijar.Onlinebanking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "390b3bb3-58da-480c-9dd8-1764990fcef4"
+      }
+    }
+  }
+}
